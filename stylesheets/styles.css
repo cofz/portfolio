@@ -3,8 +3,14 @@
 @font-face { font-family: 'Gill Sans'; src: url('/fonts/Gill Sans MT Italic.ttf'); font-style: italic; } 
 @font-face { font-family: 'Gill Sans'; src: url('/fonts/Gill Sans MT Bold Italic.ttf'); font-weight: bold; font-style: italic; }
 
-@font-face { font-family: 'Futura'; src: url('/fonts/Futura LT Light.ttf'); } 
-@font-face { font-family: 'Futura'; src: url('/fonts/Futura LT Heavy.ttf'); font-weight: bold; } 
+@font-face { 
+  font-family: 'Futura'; 
+  src: url('/fonts/Futura LT Light.ttf') format("truetype") } 
+
+@font-face { 
+  font-family: 'Futura'; 
+  font-weight: bold ; 
+  src: url('/fonts/Futura LT Heavy.ttf') format("truetype") } 
 
 
 
