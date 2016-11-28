@@ -5,12 +5,12 @@
 
 @font-face { 
   font-family: 'Futura'; 
-  src: url('.../fonts/Futura LT Light.ttf') format("truetype") } 
+  src: url('../fonts/Futura LT Light.ttf') format("truetype") } 
 
 @font-face { 
   font-family: 'Futura'; 
   font-weight: bold ; 
-  src: url('.../fonts/Futura LT Heavy.ttf') format("truetype") } 
+  src: url('../fonts/Futura LT Heavy.ttf') format("truetype") } 
 
 
 
@@ -74,7 +74,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Futura", "Gill Sans MT", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 Futura, "Gill Sans MT", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
