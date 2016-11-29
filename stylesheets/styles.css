@@ -3,15 +3,6 @@
 @font-face { font-family: 'Gill Sans'; src: url('/fonts/Gill Sans MT Italic.ttf'); font-style: italic; } 
 @font-face { font-family: 'Gill Sans'; src: url('/fonts/Gill Sans MT Bold Italic.ttf'); font-weight: bold; font-style: italic; }
 
-@font-face { 
-  font-family: 'Futura'; 
-  src: url('../fonts/Futura LT Light.ttf') format("truetype") } 
-
-@font-face { 
-  font-family: 'Futura'; 
-  font-weight: bold ; 
-  src: url('../fonts/Futura LT Heavy.ttf') format("truetype") } 
-
 
 @font-face {
   font-family: 'Noto Sans';
@@ -72,7 +63,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 16px/1.5 Futura, "Gill Sans MT", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Gill Sans MT", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -137,7 +128,7 @@ blockquote {
 code, pre {
   font-family:Gill Sans MT, Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
-  font-size:12px;
+  font-size:16px;
 }
 
 pre {
